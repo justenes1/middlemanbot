@@ -1,4 +1,5 @@
 require('dotenv').config();
+require("./keep_alive.js");
 const { Client, GatewayIntentBits, ActionRowBuilder, ButtonBuilder, ButtonStyle, AttachmentBuilder, PermissionsBitField, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 
